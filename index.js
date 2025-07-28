@@ -16,7 +16,7 @@ connectDB();
 
 //middleware
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'https://auth-frontend-rho.vercel.app',
     credentials:true
 }));
 app.use(express.json());
